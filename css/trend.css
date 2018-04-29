@@ -1,0 +1,398 @@
+
+*{
+  position: relative;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+    font-family: sans-serif;
+}
+html,body{
+  height:100%;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #888888;
+}
+.row:after{
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.container{
+  max-width: 1440px;
+  margin:0 auto;
+  padding:0 15px;
+}
+.u-cf:after{
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height:0;
+}
+.navigation{
+  display: block;
+  width:100%;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+.icon{
+  display: block;
+  float: left;
+  width:55px;
+  height:40px;
+  background-image:url("../image/Curfan_logo.svg");
+  background-size: cover;
+}
+.top-nav{
+  padding:22px 40px;
+}
+.nav{
+  float:right;
+}
+.nav span{
+  margin-left: 3px;
+  font-size: 18px;
+  font-weight:600;
+
+}
+.nav ul li{
+  float:left;
+  padding-left:32px;
+  padding-top: 8px;
+  font-size: 18px;
+}
+.nav ul li a{
+  transition: 0.2s all;
+  color:#748387;
+}
+.nav ul li a:hover{
+  color:#B2C7CD;
+}
+.nav-icon{
+  font-size: 32px;
+}
+
+.col-1-2{
+  width:50%;
+}
+.col-1-3{
+  width:33.333%;
+  float:left;
+}
+.col-2-3{
+  width:66.666%;
+  float: left;
+}
+.content{
+  max-width:768px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  .content{
+    max-width:400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .content{
+    max-width:325px;
+  }
+  .nav{
+    float: none;
+    clear: both;
+  }
+  .nav ul li{
+    float:left;
+    padding-left:0px;
+    padding-right: 12px;
+    padding-top: 8px;
+    font-size: 16px;
+  }
+}
+.title{
+  padding-bottom: 100px;
+}
+.content h1{
+  font-size: 48px;
+  color:#677478;
+  padding-bottom: 32px;
+}
+.content p{
+  font-size: 24px;
+  color:#6F6F6F;
+  font-weight: 300;
+  padding-bottom: 32px;
+}
+.content h2{
+  font-size: 24px;
+  color: #6f6f6f;
+  font-weight: 300;
+}
+.content h3{
+  font-size: 24px;
+  color: #677478;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.image-box{
+  width:100%;
+  padding-top: 58%;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.inner{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.image{
+  width:100%;
+  height:100%;
+  background-image: url('../image/trend.png');
+  background-size: contain;
+}
+.content h4{
+  padding-top: 12px;
+  color:#DB8061;
+  font-size: 32px;
+  letter-spacing: 5px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 420px) {
+  .content h1{
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+  .content p{
+    font-size: 16px;
+  }
+  .content h2{
+    font-size: 20px;
+  }
+  .content h3{
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+  .content h4{
+    font-size: 24px;
+  }
+  .image-box{
+    width:100%;
+    height:150px;
+  }
+}
+.research{
+  background-color: #F7F9FB;
+  padding-bottom: 104px;
+}
+.research .content > p{
+  padding-bottom: 112px;
+}
+.research .col-1-2{
+  float: left;
+  text-align: left;
+  padding-right: 32px;
+}
+.research .bar{
+  width:260px;
+  height:4px;
+  background-color: #D9E0E3;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.research .content h2{
+  font-weight: 600;
+}
+.research .content .col-1-2 p{
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+@media screen and (max-width: 768px) {
+  .col-m-1-1{
+    width: 100%;
+    padding-bottom: 32px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .research .content > p{
+    padding-bottom: 60px;
+  }
+  .research .content .col-m-1-1 p{
+    font-size: 16px;
+  }
+}
+.anylysis{
+  padding-bottom: 126px;
+}
+.anylysis .col-2-3{
+  padding-left: 76px;
+  padding-right: 76px;
+  margin-top: 64px;
+}
+.anylysis .col-2-3 .image-box{
+  width:100%;
+  padding-top: 75%;
+}
+.anylysis .col-2-3 .image-box .inner{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.anylysis .col-2-3 .image-box .inner .image{
+  background-image: url('../image/a1.png');
+}
+.anylysis .col-1-3 .image-box{
+  width:100%;
+  padding-top:180%;
+  margin-top: 0;
+}
+.anylysis .col-1-3 .image-box .inner{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.anylysis .col-1-3 .image-box .inner .image{
+  background-image: url('../image/trend-a.png');
+}
+@media screen and (max-width: 768px) {
+  .col-m-1-1{
+    width: 100%;
+    padding-bottom: 32px;
+  }
+  .anylysis .col-2-3{
+    padding-left: 0px;
+    padding-left: 0px;
+  }
+}
+.design{
+  padding-bottom: 95px;
+  background-color: #F7F9FB;
+}
+.design .image{
+  background-image: url('../image/uiflow.png');
+}
+.design p{
+  letter-spacing: 1px;
+}
+.design h2{
+  padding-top: 48px;
+  font-size: 24px;
+  padding-bottom: 34px;
+}
+.design .content > a{
+  color:#72BBCF;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.design .row{
+  padding-top: 20px;
+}
+.design .image-box{
+  margin-top:0;
+}
+.design  .col-1-1 .image-box{
+  width:100%;
+  padding-top: 33.2%;
+}
+.design .col-1-1 .image{
+  background-image: url('../image/gif-3.gif');
+  background-size: contain;
+}
+@media screen and (max-width: 420px) {
+  .content h2{
+    font-size: 20px;
+  }
+  .design .col-1-1 .image-box{
+    width:100%;
+    height:100px;
+  }
+  .design  .col-1-1 .image{
+    background-size: contain;
+  }
+
+}
+.validation{
+  padding-bottom: 95px;
+}
+.validation .col-1-1{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.validation .bar{
+  width:260px;
+  height:4px;
+  background-color: #D9E0E3;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.validation .col-1-1{
+  text-align: left;
+}
+.validation h2{
+  color:#677478;
+  font-weight: 600;
+}
+.validation p{
+  font-size: 20px;
+    padding-bottom: 12px;
+
+}
+.validation .col-1-1 p{
+  font-weight: 600;
+}
+.validation .two p{
+  padding-bottom: 0;
+}
+.validation span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #72BBCF;
+}
+.validation .col-1-2{
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.validation .image-box{
+  width:100%;
+  padding-top: 52.5%;
+}
+.validation .pic-1 .image{
+  background-image: url('../image/trend-validation.png');
+}
+@media screen and (max-width: 768px) {
+  .col-m-1-1{
+    width: 100%;
+  }
+  .anylysis .col-2-3{
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .validation p{
+    font-size: 16px;
+  }
+  .validation span{
+    font-size: 20px;
+  }
+  .validation .pic-1 .image-box{
+    width:100%;
+    padding-top: 40%;
+  }
+  .validation .pic-1 .image{
+    background-image: url('../image/trend-validation.png');
+    background-size: cover;
+  }
+}

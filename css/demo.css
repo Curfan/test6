@@ -1,0 +1,12 @@
+
+*{
+  position: relative;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+    font-family: sans-serif;
+}
+html,body{
+  height:100%;
+  background-color: #1f5c89;
+}
